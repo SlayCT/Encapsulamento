@@ -9,8 +9,8 @@ public class Produto {
     // Construtor
     public Produto(String nome, double preco, int quantidadeEstoque) {
         this.nome = nome;
-        setPreco(preco); // usa validação
-        setQuantidadeEstoque(quantidadeEstoque); // usa validação
+        setPreco(preco); 
+        setQuantidadeEstoque(quantidadeEstoque); 
     }
 
     // GETTERS
