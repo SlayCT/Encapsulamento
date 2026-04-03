@@ -54,7 +54,7 @@ public class Carro {
         return consumo * combustivel;
     }
 
-    // NOVO MÉTODO (PEDIDO)
+    // PEDIDO
     public double calcularValorEncherTanque(double precoGasolina) {
         double litrosFaltando = capacidadeTanque - combustivel;
         return litrosFaltando * precoGasolina;
