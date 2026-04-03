@@ -27,8 +27,8 @@ public class Main {
         // TESTANDO ERROS 
         System.out.println("\n--- Testando valores inválidos ---");
 
-        p.setPreco(-50); // inválido
-        p.setQuantidadeEstoque(-10); // inválido
+        p.setPreco(-50); 
+        p.setQuantidadeEstoque(-10); 
 
         System.out.println("\n--- Valores após tentativa inválida ---");
         System.out.println("Preço: " + p.getPreco());
